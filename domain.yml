@@ -1,0 +1,34 @@
+version: "2.0"
+
+intents:
+  - greet
+  - get_covid_details
+
+entities:
+  - status
+  - state
+  - date
+
+
+slots:
+  status:
+    type: any
+  state:
+    type: list
+  date:
+    type: list
+
+actions:
+  - action_get_covid_details
+
+responses:
+  utter_greet:
+  - text: "Hey! I am covid tracker bot helps you in finding covid related data. Please write down whatever you want to ask."
+
+
+
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

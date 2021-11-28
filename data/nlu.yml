@@ -27,6 +27,9 @@ nlu:
     - [Covid Data]{"entity":"status","value":"confirmedCasesIndian"}  in [Haryana]{"entity":"state","value":"Haryana"}? 
     - [Covid cases]{"entity":"status","value":"confirmedCasesIndian"}  in [Kerala]{"entity":"state","value":"Kerala"}
     - [Covid case]{"entity":"status","value":"confirmedCasesIndian"}  in [Rajasthan]{"entity":"state","value":"Rajasthan"}
+    - [Covid cases status]{"entity":"status","value":"confirmedCasesIndian"}  in [Rajasthan]{"entity":"state","value":"Rajasthan"}
+    - [Covid case status]{"entity":"status","value":"confirmedCasesIndian"}  in [Telangana]{"entity":"state","value":"Telangana"}
+    - [Covid case number]{"entity":"status","value":"confirmedCasesIndian"}  in [Kerala]{"entity":"state","value":"Kerala"}
     - [Covid patients]{"entity":"status","value":"confirmedCasesIndian"}  in [Haryana]{"entity":"state","value":"Haryana"}? 
     - [Total Covid cases]{"entity":"status","value":"totalConfirmed"}  in [Rajasthan]{"entity":"state","value":"Rajasthan"}? 
     - [Total Covid case]{"entity":"status","value":"totalConfirmed"}  in [Telangana]{"entity":"state","value":"Telangana"}
@@ -36,18 +39,9 @@ nlu:
     - [Total cases]{"entity":"status","value":"totalConfirmed"}  in [Rajasthan]{"entity":"state","value":"Rajasthan"} on [1 Dec 2020]{"entity":"date","value":"1 Dec 2020"}? 
     - [Total cases]{"entity":"status","value":"totalConfirmed"}  in [Kerala]{"entity":"state","value":"Kerala"} on [1 Dec 2020]{"entity":"date","value":"1 Dec 2020"}? 
     - [Total cases]{"entity":"status","value":"totalConfirmed"}  in [Telangana]{"entity":"state","value":"Telangana"} on [1 Dec 2020]{"entity":"date","value":"1 Dec 2020"}? 
-    - Hey, what's the [current confirmed]{"entity":"status","value":"confirmedCasesIndian"} cases in [Delhi]{"entity":"state","value":"Delhi"} and [Maharashtra]{"entity":"state","value":"Maharashtra"} etc?
-    - Hey, what's the [current confirmed]{"entity":"status","value":"confirmedCasesIndian"} cases in [Haryana]{"entity":"state","value":"Haryana"} and [Karnataka]{"entity":"state","value":"Karnataka"} etc?
-    - Hey, what's the [current confirmed]{"entity":"status","value":"confirmedCasesIndian"} cases in [Kerala]{"entity":"state","value":"Kerala"}, [Punjab]{"entity":"state","value":"Punjab"} etc?
-    - Hey, what's the [current confirmed]{"entity":"status","value":"confirmedCasesIndian"} cases in [Rajasthan]{"entity":"state","value":"Rajasthan"},[Tamil Nadu]{"entity":"state","value":"Tamil Nadu"} etc?
-    - Hey, what's the [current confirmed]{"entity":"status","value":"confirmedCasesIndian"} cases in [Telangana]{"entity":"state","value":"Telangana"}, [Jammu and Kashmir]{"entity":"state","value":"Jammu and Kashmir"} etc?
-    - Hey, what’s the [total]{"entity":"status","value":"totalConfirmed"} count of confirmed cases in [Haryana]{"entity":"state","value":"Haryana"},[Karnataka]{"entity":"state","value":"Karnataka"} altogether?
-    - Hey, what’s the [total]{"entity":"status","value":"totalConfirmed"} count of confirmed cases in [Kerala]{"entity":"state","value":"Kerala"},[Punjab]{"entity":"state","value":"Punjab"} altogether?
-    - Hey, what’s the [total]{"entity":"status","value":"totalConfirmed"} count of confirmed cases in [Rajasthan]{"entity":"state","value":"Rajasthan"}, [Tamil Nadu]{"entity":"state","value":"Tamil Nadu"} altogether?
-    - Hey, what’s the [total]{"entity":"status","value":"totalConfirmed"} count of confirmed cases in [Haryana]{"entity":"state","value":"Haryana"}, [Karnataka]{"entity":"state","value":"Karnataka"} altogether?
     - What’s the [confirmed case]{"entity":"status","value":"confirmedCasesIndian"} count from [1st Oct 2020]{"entity":"date","value":"1st Oct 2020"} to [12th Oct 2020]{"entity":"date","value":"12th Oct 2020"}?
-    - What’s the [confirmed case]{"entity":"status","value":"confirmedCasesIndian"} count from [1st Nov 2020]{"entity":"date","value":"1st Nov 2020"} to [12th Nov 2020]{"entity":"date","value":"12th Nov 2020"}?
-    - What’s the [confirmed case]{"entity":"status","value":"confirmedCasesIndian"} count from [1st Dec 2020]{"entity":"date","value":"1st Dec 2020"} to [12th Dec 2020]{"entity":"date","value":"12th Dec 2020"}?
+    - What’s the [confirmed case]{"entity":"status","value":"confirmedCasesIndian"} count from [2nd Nov 2020]{"entity":"date","value":"2nd Nov 2020"} to [23rd Nov 2020]{"entity":"date","value":"12th Nov 2020"}?
+    - What’s the [confirmed case]{"entity":"status","value":"confirmedCasesIndian"} count from [3rd Dec 2020]{"entity":"date","value":"1st Dec 2020"} to [22nd Dec 2020]{"entity":"date","value":"12th Dec 2020"}?
 
 
 
